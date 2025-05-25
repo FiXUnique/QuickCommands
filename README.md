@@ -1,4 +1,10 @@
 # QuickCommands
+
+[![Build Status](https://poggit.pmmp.io/shield.state/QuickCommands)](https://poggit.pmmp.io/p/QuickCommands)
+[![API Status](https://poggit.pmmp.io/shield.api/QuickCommands)](https://poggit.pmmp.io/p/QuickCommands)
+
+<!-- README content continues below -->
+
 Pocketmine Essentials Plugin
 QuickCommands Plugin
 ====================
