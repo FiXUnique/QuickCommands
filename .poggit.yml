@@ -1,7 +1,5 @@
 build-by-default: true
-branches:
-  - main
 projects:
   - name: QuickCommands
-    path: Main
-    class: Main\Main
+    path: .
+    entry: Main
