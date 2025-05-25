@@ -1,0 +1,53 @@
+name: QuickCommands
+main: QuickCommands\Main
+version: 1.0.0
+api: 5.0.0
+author: FiX
+description: Custom quick commands including /gmc, /gms, /sa, /key, /inbox, /bal, /baltop, and /vortexhelp
+
+commands:
+  gmc:
+    description: Set gamemode to Creative
+    permission: quickcommands.gmc
+  gms:
+    description: Set gamemode to Survival
+    permission: quickcommands.gms
+  sa:
+    description: Sell all items
+    permission: quickcommands.sa
+  key:
+    description: Give crate keys
+    permission: quickcommands.key
+  inbox:
+    description: Check your key rewards inbox
+    permission: quickcommands.inbox
+  bal:
+    description: Check your balance
+    permission: quickcommands.bal
+  baltop:
+    description: View the richest players
+    permission: quickcommands.baltop
+  vortexhelp:
+    description: Shows help info for custom plugins
+    permission: quickcommands.vortexhelp
+
+permissions:
+  quickcommands.gmc:
+    default: op
+  quickcommands.gms:
+    default: op
+  quickcommands.sa:
+    default: true
+  quickcommands.key:
+    default: op
+  quickcommands.inbox:
+    default: true
+  quickcommands.vortexhelp:
+    default: true
+  quickcommands.baltop:
+    default: true
+  quickcommands.bal:
+    default: true
+  quickcommands.ophelp:
+    description: Allows access to OP-only commands in the help menu
+    default: op
