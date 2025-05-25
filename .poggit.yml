@@ -1,8 +1,15 @@
-# Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/FiXUnique/QuickCommands
+---
+# Poggit-CI Manifest for QuickCommands
 build-by-default: true
 branches:
   - main
 projects:
-  - path: .
-    main: QuickCommands\Main
-    output: QuickCommands.phar
+  - name: QuickCommands
+    path: .
+    type: plugin
+    entry: src/FiX/QuickCommands/Main.php
+    api:
+      - 5.0.0
+    version: 1.0.0
+    description: "Fast utility commands for PocketMine"
+...
