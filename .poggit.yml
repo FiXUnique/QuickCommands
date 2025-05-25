@@ -2,4 +2,4 @@ build-by-default: true
 projects:
   - name: QuickCommands
     path: .
-    entry: Main
+    entry: QuickCommands\Main
