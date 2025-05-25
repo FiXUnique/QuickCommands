@@ -38,7 +38,7 @@ Installation:
 
 Customization:
 --------------
-You can rename the /vortexhelp command to something like "/yourserverhelp" in the commands.yml or plugin.yml file.
+You can rename the /vortexhelp command to something like "/yourserverhelp" in the config.yml or plugin.yml file.
 Only OPs will see the OP commands listed in the help, while non-OP players will see only the commands available to them.
 
 Permissions:
