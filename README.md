@@ -1,0 +1,2 @@
+# QuickCommands
+Pocketmine Essentials Plugin
